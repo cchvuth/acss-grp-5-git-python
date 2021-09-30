@@ -2,9 +2,9 @@ from randomness import throwVirtualDice
 
 print("This is the program from group #5 !")
 
-choice = 0
+choice = ""
 
-while choice != "Q":
+while choice.upper() != "Q":
   print("Please select one of the features below, stop by entering Q.\n")
   print("1. Factorials\n2. Links\n3. Randomness\n4. Mazes\n5. Collatz\n")
   choice = input("Enter choice (stop with Q): ")

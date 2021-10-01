@@ -5,6 +5,7 @@
 
 ##### Contributors:
 
-- main.py: ChanVuth Chea
+- main.py: ChanVuth Chea;Yuzhi Chen
 - randomness.py: ChanVuth Chea
+- mazes.py: Yuzhi Chen
 - collatz.py: ChanVuth Chea

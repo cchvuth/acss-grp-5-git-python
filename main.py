@@ -1,4 +1,5 @@
 from randomness import throwVirtualDice
+from mazes import Mazes
 from collatz import printCollatzSequence
 
 print("This is the program from group #5 !")
@@ -17,7 +18,7 @@ while choice.upper() != "Q":
   elif choice == "3":
     throwVirtualDice()
   elif choice == "4":
-    pass
+    Mazes()
   elif choice == "5":
     printCollatzSequence()
   else: print("Invalid choice")

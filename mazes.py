@@ -6,12 +6,13 @@ def Mazes():
     print("The width and height should be more than 5 and the height should be an odd number.")
     print(" ")
 
-    input_str = input("Enter the width of the maze:")
+    input_str = input("Enter the width of the maze: ")
     w = int(input_str)
 
-    input_str = input("Enter the height of the maze:")
+    input_str = input("Enter the height of the maze: ")
     h = int(input_str)
 
+    print("")
     if (w < 5) or (h < 5) or (h % 2 != 1):  # invalid
         print("Invalid data.")
         print(" ")

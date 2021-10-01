@@ -9,15 +9,16 @@ def Mazes():
 
     w = 1
     while w != 0:
-        input_str = input("Enter the width of the maze:")
+        input_str = input("Enter the width of the maze: ")
         w = int(input_str)
 
         if w == 0:  # terminate
             break
 
         else:
-            input_str = input("Enter the height of the maze:")
+            input_str = input("Enter the height of the maze: ")
             h = int(input_str)
+            print("")
 
             if (w < 5) or (h < 5) or (h % 2 != 1):  # invalid
                 print("Invalid data.")

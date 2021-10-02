@@ -1,3 +1,4 @@
+from links import links
 from randomness import throwVirtualDice
 from mazes import Mazes
 from collatz import printCollatzSequence
@@ -14,7 +15,7 @@ while choice.upper() != "Q":
   if choice == "1":
     pass
   elif choice == "2":
-    pass
+    links()
   elif choice == "3":
     throwVirtualDice()
   elif choice == "4":

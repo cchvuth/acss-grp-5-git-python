@@ -1,5 +1,5 @@
 from factorial import print_factorials
-from links import links
+from links import test_link
 from randomness import throwVirtualDice
 from mazes import Mazes
 from collatz import printCollatzSequence
@@ -16,7 +16,7 @@ while choice.upper() != "Q":
   if choice == "1":
     print_factorials()
   elif choice == "2":
-    links()
+    test_link()
   elif choice == "3":
     throwVirtualDice()
   elif choice == "4":

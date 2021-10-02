@@ -1,3 +1,4 @@
+from factorial import print_factorials
 from links import links
 from randomness import throwVirtualDice
 from mazes import Mazes
@@ -13,7 +14,7 @@ while choice.upper() != "Q":
   choice = input("Enter choice (stop with Q): ")
 
   if choice == "1":
-    pass
+    print_factorials()
   elif choice == "2":
     links()
   elif choice == "3":

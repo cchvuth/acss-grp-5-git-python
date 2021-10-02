@@ -1,6 +1,4 @@
 import urllib.request
-import null as null
-
 
 def test_link():
     url = input("Enter a URL: ")

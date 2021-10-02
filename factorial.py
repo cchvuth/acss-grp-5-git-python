@@ -9,7 +9,7 @@ def factorial(n):
     return fac
 
 
-def print_factorial():
+def print_factorials():
     enum = input("Enter a number:")
     n = int(enum)
     if n <= 0:
@@ -19,4 +19,4 @@ def print_factorial():
             print("%d! = %d " % (i, factorial(i)))
             i = i + 1
 
-# print_factorial()
+

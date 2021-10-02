@@ -10,7 +10,7 @@ def factorial(n):
 
 
 def print_factorials():
-    enum = input("Enter a number:")
+    enum = input("Enter a number: ")
     n = int(enum)
     if n <= 0:
         print("Invalid input")

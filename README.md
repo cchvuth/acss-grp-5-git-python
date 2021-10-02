@@ -10,3 +10,4 @@
 - mazes.py: Yuzhi Chen
 - collatz.py: ChanVuth Chea
 - Links : Md Najmus Sakib
+- factorial.py Jiaying Wu

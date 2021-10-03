@@ -5,9 +5,9 @@
 
 ##### Contributors:
 
-- main.py: ChanVuth Chea;Yuzhi Chen
+- main.py: ChanVuth Chea;Yuzhi Chen;Md Najmus Sakib;Jiaying Wu
 - randomness.py: ChanVuth Chea
 - mazes.py: Yuzhi Chen
 - collatz.py: ChanVuth Chea
-- Links : Md Najmus Sakib
-- factorial.py Jiaying Wu
+- links.py : Md Najmus Sakib
+- factorial.py: Jiaying Wu
